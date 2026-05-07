@@ -1,5 +1,11 @@
 # PFAS–Kidney Disease Genetic Epidemiology and Computational Toxicology
 
+# PFAS-kidney-genetic-toxicology
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20075178.svg)](https://doi.org/10.5281/zenodo.20075178)
+
+This repository provides the reproducibility package for the PFAS–kidney disease genetic epidemiology and computational toxicology study. A permanent archived version is available through Zenodo: https://doi.org/10.5281/zenodo.20075178.
+
 This repository provides the reproducibility package for the manuscript:
 
 **Per- and Polyfluoroalkyl Substances Exposure and Kidney Disease: Unveiling Genetic Associations and Molecular Mechanisms through Genetic Epidemiology and Computational Toxicology**

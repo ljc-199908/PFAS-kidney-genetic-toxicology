@@ -8,10 +8,11 @@
 results/*
 !results/.gitkeep
 
-# Local input data derived from third-party GWAS resources
-data/exposure_instruments.tsv
+# Do not track generated full SNP-level outcome or harmonised datasets
 data/*harmonised*
 data/*outcome*
+results/*harmonised*
+results/*outcome*
 *.rds
 *.RData
 

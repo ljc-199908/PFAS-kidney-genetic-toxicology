@@ -1,43 +1,15 @@
-# Data availability and redistribution note
+# Data availability statement
 
-The analysis code and reproducibility scripts are provided to support transparent regeneration of the harmonised datasets used in the manuscript.
+The analysis pipeline and reproducible code supporting this study are publicly available in this repository. A permanent archived version of the repository should be made available through Zenodo after release.
 
-## What is included
+All data underlying the findings are derived from publicly accessible resources, including GWAS Catalog/OpenGWAS, UK Biobank-derived GWAS summary statistics, PubChem, SwissTargetPrediction, SEA, CTD, GeneCards, Open Targets, STRING, and RCSB PDB, as described in the manuscript.
 
-This repository includes:
+The repository includes the final PFAS exposure instrument table used for harmonisation (`data/exposure_PFAS_instruments.tsv`). This table contains the retained SNP-level instruments for genetically predicted circulating PFOA and PFOS levels and is provided to facilitate reproducibility of the MR harmonisation workflow.
 
-- scripts to regenerate outcome-level SNP associations from OpenGWAS IDs;
-- scripts to harmonise locally supplied PFAS exposure instruments with OpenGWAS outcomes;
-- an example output-structure file showing the format of the harmonised dataset;
-- configuration files listing the exposure and outcome GWAS IDs used in the study.
+The repository does not redistribute full pre-harmonised outcome datasets, full harmonised exposure–outcome datasets, or full third-party GWAS summary statistics because these files may contain derived SNP-level data from third-party GWAS resources with resource-specific redistribution terms. Instead, we provide OpenGWAS outcome IDs, the PFAS exposure instrument table, example harmonised output structures, and one-click R scripts that allow users to retrieve the original outcome associations and regenerate the harmonised analysis-ready datasets from the original public resources.
 
-## What is not included
-
-This repository does not include the full pre-harmonised or harmonised SNP-level datasets.
-
-These files are derived from third-party GWAS resources, including GWAS Catalog/OpenGWAS and UK Biobank-derived resources. Because redistribution terms may differ across resources, we provide a reproducible pipeline instead of redistributing derived summary-statistic tables.
-
-## How to reproduce the harmonised datasets
-
-1. Obtain or prepare the PFAS exposure instruments from the manuscript/Supplementary Table S1.
-2. Save the file as:
+After publishing the GitHub release, replace the placeholder below with the Zenodo DOI:
 
 ```text
-data/exposure_instruments.tsv
+Zenodo DOI: [insert DOI]
 ```
-
-3. Run:
-
-```bash
-Rscript scripts/run_all_example.R
-```
-
-The pipeline retrieves the outcome associations from OpenGWAS and generates analysis-ready harmonised datasets in:
-
-```text
-results/harmonised_dat.tsv
-```
-
-## Suggested Data Availability Statement
-
-The analysis pipeline and reproducible code supporting this study are publicly available in the GitHub repository. A permanent archived version of the repository is available through Zenodo. All data underlying the findings are derived from publicly accessible GWAS resources, including GWAS Catalog/OpenGWAS and UK Biobank-derived summary statistics. Because the full pre-harmonised and harmonised datasets are derived from third-party GWAS resources with resource-specific redistribution terms, these datasets are not directly redistributed in the repository. Instead, we provide a reproducible script that retrieves the original outcome data using OpenGWAS study IDs and regenerates the harmonised analysis-ready datasets from the supplied PFAS instrumental variables.

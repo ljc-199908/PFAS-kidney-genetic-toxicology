@@ -1,6 +1,5 @@
 # PFAS–Kidney Disease Genetic Epidemiology and Computational Toxicology
 
-# PFAS-kidney-genetic-toxicology
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20075178.svg)](https://doi.org/10.5281/zenodo.20075178)
 

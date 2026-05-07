@@ -1,0 +1,3 @@
+exposure	SNP	effect_allele.exposure	other_allele.exposure	eaf.exposure	beta.exposure	se.exposure	pval.exposure	samplesize.exposure	R2	F	mr_keep.exposure	pval_origin.exposure	id.exposure	data_source.exposure
+PFOA	rs_example_1	A	G	0.12	0.1	0.02	1e-06	8199	0.003	25.0	True	reported	PFOA	textfile
+PFOS	rs_example_2	T	C	0.34	-0.08	0.02	5e-06	8812	0.0025	22.0	True	reported	PFOS	textfile

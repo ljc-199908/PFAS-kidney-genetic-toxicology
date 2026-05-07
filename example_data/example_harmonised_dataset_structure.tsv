@@ -1,0 +1,3 @@
+SNP	exposure	outcome	beta.exposure	se.exposure	effect_allele.exposure	other_allele.exposure	eaf.exposure	beta.outcome	se.outcome	effect_allele.outcome	other_allele.outcome	eaf.outcome	pval.exposure	pval.outcome	id.exposure	id.outcome	mr_keep	action
+rs_example_001	PFOA	Example kidney outcome	0.0000	0.0000	A	G	0.5000	0.0000	0.0000	A	G	0.5000	1.0e-5	0.50	PFOA	example-outcome	TRUE	2
+rs_example_002	PFOS	Example kidney outcome	0.0000	0.0000	C	T	0.5000	0.0000	0.0000	C	T	0.5000	1.0e-5	0.50	PFOS	example-outcome	TRUE	2

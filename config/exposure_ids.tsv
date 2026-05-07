@@ -1,0 +1,3 @@
+exposure	gwas_id	trait	sample_size_in_supplied_instrument_file	note
+PFOA	GCST90200171	PFOA levels	8199	Final retained SNP-level instruments are supplied in data/exposure_PFAS_instruments.tsv.
+PFOS	GCST90200100	PFOS levels	8812	Final retained SNP-level instruments are supplied in data/exposure_PFAS_instruments.tsv.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "PFAS–Kidney Disease Reproducibility Package"
+message: "If you use this code, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: Zeng
+    given-names: Dianjie
+  - family-names: Wang
+    given-names: Yuxi
+  - family-names: Wang
+    given-names: Wenpeng
+  - family-names: Zuo
+    given-names: Zhongkun
+repository-code: "https://github.com/ljc-199908/multiomics-MR"
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-07"
